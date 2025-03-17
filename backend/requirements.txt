@@ -1,0 +1,10 @@
+flask
+flask-cors
+flask-jwt-extended
+pymongo
+werkzeug
+numpy
+scikit-learn
+gunicorn
+python-dotenv
+

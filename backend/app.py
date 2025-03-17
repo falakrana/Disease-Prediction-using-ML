@@ -12,8 +12,8 @@ import urllib.parse
 from pymongo import MongoClient
 import pandas as pd
 
-username = "falakrana_30"
-password = "@qwerty1"  # If it has @, #, $, & etc., it needs encoding
+username = "<yourMongoDBUsername>"
+password = "<yourMongoDBPassword>"  # If it has @, #, $, & etc., it needs encoding
 encoded_password = urllib.parse.quote_plus(password)
 app = Flask(__name__)
 CORS(app)
